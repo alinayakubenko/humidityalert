@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Humidity Alert</string>
+    <string name="service_repeating_alarm_request_code">1</string>
+    <string name="settings_button">Settings</string>
+    <string name="settings_title">Humidity alert settings</string>
+    <string name="pref_key_switch_alert">pref_switch_alert</string>
+    <string name="pref_title_switch_alert">Send humidity alert</string>
+    <string name="pref_summary_switch_alert">Turn on/off sending notifications every 15 min if humidity level is less than configured below.</string>
+    <string name="pref_key_list_min_humid_pref">list_min_humid_pref</string>
+    <string name="pref_list_title_min_humid_pref">Minimum humidity level for alert sending, %</string>
+    <string name="pref_list_summary_min_humid_pref">Set the minimum humidity level for sending alert. Default value is 35 percent.</string>
+    <string name="list_min_humid_default">0</string>
+    <string name="notification_title">Humidity level is low!</string>
+    <string name="notification_text">Reduce air heating or use humidifier to increase humidity level.</string>
+    <string name="list_min_humid_default_string_value">35</string>
+    <string name="extras_min_humid_level">EXTRAS_HUMID</string>
+    <string name="extras_last_updated_humid_level">EXTRAS_LAST_HUMID</string>
+    <string name="estras_on_destroy_sensor_service">EXTRA_RESTART_ACTIVITY</string>
+    <string-array name="list_min_humid">
+        <item>35</item>
+        <item>45</item>
+        <item>55</item>
+        <item>65</item>
+    </string-array>
+    <string-array name="list_min_humid_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>
